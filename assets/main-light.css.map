@@ -3,8 +3,8 @@
 	"file": "main-light.css",
 	"sources": [
 		"main-light.scss",
-		"../../../../../tmp/jekyll-remote-theme-20201010-5541-ftfbsj/_sass/_light.scss",
-		"../../../../../tmp/jekyll-remote-theme-20201010-5541-ftfbsj/_sass/base.scss"
+		"../../../../../tmp/jekyll-remote-theme-20201010-5480-135pdnu/_sass/_light.scss",
+		"../../../../../tmp/jekyll-remote-theme-20201010-5480-135pdnu/_sass/base.scss"
 	],
 	"sourcesContent": [
 		"@import \"light\";\n@import \"base\";\n",
