@@ -17,7 +17,15 @@
 <script type="application/ld+json">
 {"headline":"Leaking Git Repositories From Misconfigured Sites","dateModified":"2020-09-26T11:53:48+00:00","datePublished":"2020-09-26T11:53:48+00:00","description":"Many deployment mechanisms for web applications exist in which the contents of a repository is copied onto a production server, whether this is by building the files into a Docker container, or simply transferring them directly onto a webserver. This can often result in the publishing of sensitive files such as CI configs, READMEs, and the one we’re going to focus on today: .git directories.","mainEntityOfPage":{"@type":"WebPage","@id":"https://liam-galvin.co.uk/security/2020/09/26/leaking-git-repos-from-misconfigured-sites.html"},"@type":"BlogPosting","url":"https://liam-galvin.co.uk/security/2020/09/26/leaking-git-repos-from-misconfigured-sites.html","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" type="text/css" href="/assets/main-light.css"></head>
+<link rel="stylesheet" type="text/css" href="/assets/main-light.css"><script async src="https://www.googletagmanager.com/gtag/js?id=UA-10622185-1"></script>
+<script>
+  window['ga-disable-UA-10622185-1'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-10622185-1');
+</script>
+</head>
 <body>
     <div class="container"><header>
   <div class="menu">
