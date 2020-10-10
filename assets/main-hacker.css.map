@@ -3,8 +3,8 @@
 	"file": "main-hacker.css",
 	"sources": [
 		"main-hacker.scss",
-		"../../../../../tmp/jekyll-remote-theme-20201010-5491-1xapx9x/_sass/_hacker.scss",
-		"../../../../../tmp/jekyll-remote-theme-20201010-5491-1xapx9x/_sass/base.scss"
+		"../../../../../tmp/jekyll-remote-theme-20201010-5541-ftfbsj/_sass/_hacker.scss",
+		"../../../../../tmp/jekyll-remote-theme-20201010-5541-ftfbsj/_sass/base.scss"
 	],
 	"sourcesContent": [
 		"@import \"hacker\";\n@import \"base\";\n",
