@@ -67,9 +67,12 @@ a:hover {
 img {
   max-width: 100%; }
 
-@media only screen and (max-device-width: 600px) {
+@media only screen and (max-device-width: 500px) {
   * {
-    font-size: 12px !important; } }
+    font-size: 12px !important; }
+
+  .non-mobile {
+    display: none; } }
 /**
  * Layout
  */

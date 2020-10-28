@@ -51,7 +51,7 @@ p, ul, ol { margin: 15px 0 15px 0 ;  color: var(--text-color); }
 a { text-decoration: underline;  color: var(--link-color); }
 a:hover { color: var(--background-color); background-color: var(--base-color); }
 img { max-width: 100%; }
-@media only screen and (max-device-width: 600px) { * { font-size: $mobile-font-size !important; } }
+@media only screen and (max-device-width: 500px) { * { font-size: $mobile-font-size !important; } .non-mobile{ display:none; } }
 
 /**
  * Layout
