@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<strong>$</strong> ls -lt
+
+{%- if site.posts.size > 0 -%}
+<ul class="clean">
+	{%- for post in site.posts -%}
+	<li>
+		{%- assign date_format = "%Y-%m-%d" -%}
+		-rw-r--r-- 1 liamg {{ post.date | date: date_format }} <a href="{{ post.url | relative_url }}">'{{ post.title | escape }}'</a>
+	</li>
+	{%- endfor -%}
+</ul>
+{%- endif -%}
