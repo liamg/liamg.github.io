@@ -1,0 +1,19 @@
+title: Liam Galvin
+email: liamgalvin@protonmail.com
+description: >-
+  Personal dumping ground of an engineer, hacker, and general code mangler.
+baseurl: ""
+url: "https://www.liam-galvin.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: liam_galvin
+github_username:  liamg
+
+header_pages:
+  - index.md
+  - about.md
+
+google_analytics: UA-10622185-1
+
+exclude:
+  - .idea/*
+  - Makefile
+  - README.md
