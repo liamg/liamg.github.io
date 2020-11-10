@@ -15,8 +15,8 @@ $container-max-width:  800px !default;
   --base-color: #EEE;
   --background-color: #333;
   --border: dashed 1px #fff;
-  --selection-background: #fff;
-  --selection-text: #FFF;
+  --selection-background: #aa4400;
+  --selection-text: #000;
   --code-background-color: #111;
   --code-text-color: #bbbbbb;
   --text-color: var(--base-color);
@@ -169,4 +169,3 @@ pre { background-color: var(--code-background-color);  border: none; border-radi
 .highlight .il { color: var(--code-color-14); } /* Literal.Number.Integer.Long */
 
 main img { margin-left: auto; margin-right: auto; display: block; }
-::-moz-selection, ::selection { background: #aa4400; }
