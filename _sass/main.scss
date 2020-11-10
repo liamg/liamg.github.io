@@ -167,3 +167,6 @@ pre { background-color: var(--code-background-color);  border: none; border-radi
 .highlight .vg { color: var(--code-color-7); } /* Name.Variable.Global */
 .highlight .vi { color: var(--code-color-7); } /* Name.Variable.Instance */
 .highlight .il { color: var(--code-color-14); } /* Literal.Number.Integer.Long */
+
+main img { margin-left: auto; margin-right: auto; display: block; }
+::-moz-selection, ::selection { background: #aa4400; }

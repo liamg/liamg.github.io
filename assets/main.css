@@ -485,5 +485,12 @@ pre {
   color: var(--code-color-14); }
 
 /* Literal.Number.Integer.Long */
+main img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+::-moz-selection, ::selection {
+  background: #aa4400; }
 
 /*# sourceMappingURL=main.css.map */
