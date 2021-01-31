@@ -49,8 +49,18 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   margin: 0px;
   margin-top: 22px;
+  margin-bottom: 8px;
   font-weight: bold;
   color: var(--text-color); }
+
+h1, h2 {
+  border-bottom: 1px solid #444444; }
+
+h2, h3 {
+  margin-top: 42px; }
+
+h4 {
+  margin-top: 32px; }
 
 p, ul, ol {
   margin: 15px 0 15px 0;
@@ -73,6 +83,9 @@ img {
 
   .non-mobile {
     display: none; } }
+span.cmd {
+  color: #999999; }
+
 /**
  * Layout
  */
