@@ -172,3 +172,14 @@ pre { background-color: var(--code-background-color);  border: none; border-radi
 .highlight .il { color: var(--code-color-14); } /* Literal.Number.Integer.Long */
 
 main img { margin-left: auto; margin-right: auto; display: block; }
+
+#countdown{
+    display: block;
+    width: 100%;
+    padding: 100px 0px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 48pt;
+}

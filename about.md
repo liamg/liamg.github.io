@@ -7,12 +7,12 @@ I'm a software engineer with a serious interest in security. I focus on Go, but 
 
 ## Security/Hacking
 
+- [traitor](https://github.com/liamg/traitor) - Automatic Linux privesc via exploitation of low-hanging fruit e.g. gtfobins
 - [tfsec](https://github.com/tfsec/tfsec) - A static analysis powered security scanner for Terraform (recommended by ThoughtWorks!)
 - [scout](https://github.com/liamg/scout) - A lightweight web fuzzer with pen-tester friendly bonus features
 - [gitjacker](https://github.com/liamg/gitjacker) - Leak git repositories from misconfigured websites
 - [pax](https://github.com/liamg/pax) - PKCS7 padding oracle attack tool
 - [furious](https://github.com/liamg/furious) - Lightweight port scanner
-- [traitor](https://github.com/liamg/traitor) - Automatic Linux privesc via exploitation of low-hanging fruit e.g. gtfobins
 
 ## Terminal
 

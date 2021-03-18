@@ -6,4 +6,8 @@ document.addEventListener('DOMContentLoaded', function() {
             links[i].rel = "noopener"
         }
     }
+    var list = document.querySelectorAll('.darkreader');
+    for(var i =0;i < list.length;i++){
+        list[i].innerText='';
+    }
 }, false);
