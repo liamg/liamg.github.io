@@ -7,7 +7,7 @@ permalink: /countdown/
 <p id="countdown"></p>
 
 <script>
-var countDownDate = new Date("Jun 18, 2021 17:00:00").getTime();
+var countDownDate = new Date("Jun 17, 2021 17:00:00").getTime();
 
 var x = setInterval(function() {
 
