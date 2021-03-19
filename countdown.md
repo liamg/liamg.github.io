@@ -22,7 +22,7 @@ var x = setInterval(function() {
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown").innerHTML = "Aqua Time!";
+    document.getElementById('countdown').innerHTML = '<img src="https://media.giphy.com/media/kyLYXonQYYfwYDIeZl/source.gif"/>'
   }
 }, 1000);
 </script>
