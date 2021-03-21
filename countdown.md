@@ -6,6 +6,7 @@ permalink: /countdown/
 
 <p id="countdown"></p>
 
+<script src="/assets/stupid.js"></script>
 <script>
 var countDownDate = new Date("Jun 18, 2021 17:00:00").getTime();
 
