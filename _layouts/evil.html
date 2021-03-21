@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>{{ page.title | escape }}</title>
+	<meta name="description" content="<script>alert(0)</script>" />
+	<link rel="canonical" href="{{ site.url }}{{ site.baseurl }}/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="<script>alert(0)</script>" />
+	<meta property="og:locale" content="en_GB" />
+	<meta property="og:description" content="<script>alert(0)</script>" />
+	<meta property="og:url" content="<script>alert(0)</script>" />
+	<meta property="og:image" content="<script>alert(0)</script>" />
+	<meta property="og:site_name" content="<script>alert(0)</script>" />
+	<script type="application/ld+json">{"headline":"{{ page.title }}","description":"{{ site.description }}","@type":"WebSite","url":"{{ site.url }}{{ site.baseurl }}","name":"{{ site.title }}","@context":"https://schema.org"}</script>
+	{% if page.robots %}<meta name="robots" content="{{page.robots}}" />{% endif %}
+	<link rel="stylesheet" type="text/css" href="{{ "/assets/main.css" | relative_url }}">
+	<script src="/assets/main.js"></script>
+	{%- if jekyll.environment == 'production' and site.google_analytics -%}{%- include google-analytics.html -%}{%- endif -%}
+</head>
+
+<body>
+<div class="container">
+	<main>
+        {{ content }}
+	</main>
+</div>
+</body>
+</html>
